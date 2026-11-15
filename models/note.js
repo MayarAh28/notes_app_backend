@@ -16,7 +16,7 @@ mongoose
   });
 
 const noteSchema = new mongoose.Schema({
-  name: String,
+  content: String,
   important: Boolean,
 });
 
